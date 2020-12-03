@@ -31,4 +31,4 @@ const CyrillicToLatinMappingLowercase = {
     "ь": "y"
 }
 Object.freeze(CyrillicToLatinMappingLowercase)
-window.CyrillicToLatinMappingLowercase = CyrillicToLatinMappingLowercase
+window.LetterMapping.letters.set(window.LetterMapping.keys.CyrillicToLatinMappingLowercase, CyrillicToLatinMappingLowercase)

@@ -30,4 +30,4 @@ const CyrillicToLatinMappingCapital = {
     "Я": "Ya"
 }
 Object.freeze(CyrillicToLatinMappingCapital)
-window.CyrillicToLatinMappingCapital = CyrillicToLatinMappingCapital
+window.LetterMapping.letters.set(window.LetterMapping.keys.CyrillicToLatinMappingCapital, CyrillicToLatinMappingCapital)
