@@ -1,4 +1,4 @@
-const CyrillicToLatinMappingCapital = {
+window.LetterMapping.letters.set(window.LetterMapping.keys.CyrillicToLatinMappingCapital, Object.freeze({
     "А": "A",
     "Б": "B",
     "В": "V",
@@ -28,6 +28,4 @@ const CyrillicToLatinMappingCapital = {
     "Ъ": "y",
     "Ю": "Yu",
     "Я": "Ya"
-}
-Object.freeze(CyrillicToLatinMappingCapital)
-window.LetterMapping.letters.set(window.LetterMapping.keys.CyrillicToLatinMappingCapital, CyrillicToLatinMappingCapital)
+}))

@@ -1,4 +1,4 @@
-const CyrillicToLatinMappingLowercase = {
+window.LetterMapping.letters.set(window.LetterMapping.keys.CyrillicToLatinMappingLowercase, Object.freeze({
     "а": "а",
     "б": "b",
     "в": "v",
@@ -29,6 +29,4 @@ const CyrillicToLatinMappingLowercase = {
     "ю": "yu",
     "я": "ya",
     "ь": "y"
-}
-Object.freeze(CyrillicToLatinMappingLowercase)
-window.LetterMapping.letters.set(window.LetterMapping.keys.CyrillicToLatinMappingLowercase, CyrillicToLatinMappingLowercase)
+}))

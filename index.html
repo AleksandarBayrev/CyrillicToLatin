@@ -6,6 +6,7 @@
         <script src="src/letterMapping.js"></script>
         <script src="src/capitalLettersConversion.js"></script>
         <script src="src/lowercaseLettersConversion.js"></script>
+        <script src="src/processText.js"></script>
         <script src="src/index.js"></script>
     </head>
     <body>
@@ -15,6 +16,13 @@
             </div>
             <div class="right-text-box">
                 <textarea id="latin-text" placeholder="Converted text will be set here" disabled></textarea>
+            </div>
+            <div class="translate">
+                <button onclick="window.LetterMapping.appendToDiv('cyrillic-text', 'latin-text')">Process text</button>
+            </div>
+            <div class="input-result-controls">
+                <button onclick="window.LetterMapping.clearTextBox('cyrillic-text')">Clear input</button>
+                <button onclick="window.LetterMapping.clearTextBox('latin-text')">Clear result</button>
             </div>
         </div>
     </body>
